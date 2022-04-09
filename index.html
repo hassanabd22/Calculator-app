@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="description" content="Calculator app">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styel.css">
+  <title>Calculator app</title>
+
+</head>
+<body>
+  <div class="app">
+    <div class="title-swath">
+      <h1>calc</h1>
+      <div class="thimes">
+        <span>THIMES</span>
+        <div class="radio-plan">
+          <label class="switch">
+            <input type="checkbox" id="checkbox"/>
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="screen">
+      <input type="text" readonly name="txt" value="">
+    </div>
+    <div class="keypad">
+      <input type="button" value="7" data-num="7">
+      <input type="button" value="8" data-num="8">
+      <input type="button" value="9" data-num="9">
+      <input type="button" value="Del" class="del">
+      <input type="button" value="4"  data-num="4">
+      <input type="button" value="5"  data-num="5">
+      <input type="button" value="6"  data-num="6">
+      <input type="button" value="+"  data-num="+">
+      <input type="button" value="1"  data-num="1">
+      <input type="button" value="2"  data-num="2">
+      <input type="button" value="3"  data-num="3">
+      <input type="button" value="-"  data-num="-">
+      <input type="button" value="."  data-num=".">
+      <input type="button" value="0"  data-num="0">
+      <input type="button" value="/"  data-num="/">
+      <input type="button" value="x"  data-num="*">
+      <input type="button" value="Rest" class="rest">
+      <input type="button" value="=" class="equle">
+    </div>
+  </div>
+
+  <script src="./js/index.js"></script>
+</body>
+</html>
